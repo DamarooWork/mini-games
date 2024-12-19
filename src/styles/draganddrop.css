@@ -1,0 +1,70 @@
+.draganddrop {
+  background-color: #e5e5e5;
+  display: flex;
+  margin-top: 90px;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh - 90px);
+  background: linear-gradient(90deg, #1f2949 0%, #00574f 100%);
+}
+.row {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.col-header {
+  min-width: 150px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 1rem 1.2rem;
+  color: #fff;
+}
+
+.item {
+  text-wrap: balance;
+  border: 2px solid #eee;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  background: #f7f6f7;
+  padding: 0.8rem 1rem;
+  color: green;
+  font-size: x-large;
+
+  text-align: center;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 150px;
+  height: 66px;
+}
+
+.start-drag {
+  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+}
+
+.progress-drag {
+  background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+}
+
+.done-drag {
+  background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+}
+.hold-drag {
+  border: 2px solid yellowgreen;
+}
+.hide-drag {
+  display: none;
+}
+.hovered-drag {
+  border: 2px dotted green;
+  border-radius: 20px;
+}

@@ -1,0 +1,38 @@
+.game {
+  background: linear-gradient(90deg, #1f2949 0%, #00574f 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+.colorgame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* max-width: 800px; */
+  /* background: linear-gradient(90deg, #1f2949 0%, #00574f 100%); */
+}
+.square {
+  width: 16px;
+  height: 16px;
+  background: #1d1d1d;
+  margin: 2px;
+  box-shadow: 0 0 2px black;
+  transition: 2s ease;
+}
+.square:hover {
+  transition-duration: 0s;
+}

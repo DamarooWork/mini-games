@@ -68,9 +68,9 @@ export default function AimTrainingPage() {
   function getRandomNumber(min: number, max: number) {
     return Math.round(Math.random() * (max - min) + min)
   }
-  function handleRestart() {
-    window.location.reload()
-  }
+  // function handleRestart() {
+  //   window.location.reload()
+  // }
   return (
     <>
       <div className="screen">
@@ -144,12 +144,12 @@ export default function AimTrainingPage() {
               Your score: <b className="text-green-500">{score}</b>
             </h2>
             <p className="mb-7">Well played!</p>
-            <button
+            {/* <button
               onClick={() => handleRestart()}
               className="time-btn rounded-lg py-6 px-8 bg-white text-gray-700 hover:cursor-pointer transform-3d rotate-x-51 rotate-z-43 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:rotate-x-49 hover:rotate-z-38 hover:shadow-2xl  active:bg-blue-300"
             >
               New game
-            </button>
+            </button> */}
           </div>
         )}
         {time > 0 && (

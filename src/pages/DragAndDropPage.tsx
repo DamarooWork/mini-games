@@ -59,7 +59,7 @@ export default function DragAndDropPage() {
       <div className="row">
         <div className="placeholder">
           <div className="item" draggable="true" ref={item}>
-            Enjoy this site c:
+            Enjoy this site
           </div>
         </div>
         <div className="placeholder"></div>
